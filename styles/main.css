@@ -10,3 +10,21 @@
     margin: 16px;
     padding: 8px;
   }
+
+  .breadcrumb:last-child {font-weight: 500;}
+  .breadcrumb.dark {
+    color:rgba(0,0,0,0.5);
+    line-height: 64px;
+  }
+  .breadcrumb.dark:before {
+    color:rgba(0,0,0,0.2);
+    vertical-align: middle;
+  }
+  .breadcrumb.dark:last-child {
+    color:rgba(0,0,0,1);
+  }
+
+  .breadcrumb.dark i {
+    line-height: 64px;
+    margin-left: 10px;
+  }

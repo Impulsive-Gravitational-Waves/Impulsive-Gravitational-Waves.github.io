@@ -30,12 +30,16 @@
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About Gravitational Waves</a></li>
                     <li><a href="../references.html" >Literature and References</a></li>
-                    <li class="active">
-                      <a href="../visualisations.html" class="breadcrumb">Visualisations</a>
-                      <a href="#" class="breadcrumb">Aichelburg-Sexl Solution</a>
-                    </li>
+                    <li class="active"><a href="../visualisations.html">Visualisations</a></li>
                 </ul>
                 </div>
+
+                <span id="mobile-breadcrumbs">
+                  <a href="../index.html" class="breadcrumb dark"><i class="material-icons">home</i></a>
+                  <a href="../visualisations.html" class="breadcrumb dark">Visualisation</a>
+                  <a href="#" class="breadcrumb dark">Aichelburg-Sexl Solution</a>
+                </span>
+                
             </nav>
 
             <ul class="sidenav" id="mobile">
@@ -274,14 +278,8 @@
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
-        <!--init cards-->
-        <script>
-          $(document).ready(function(){
-            $('ul.tabs').each((index, el) => {
-              M.Tabs.init(el, {});
-            })
-          });
-        </script>
+        <!--init main-->
+        <script type="text/javascript" src="../js/main.js"></script>
     </body>
 
 </html>
