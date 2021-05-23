@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta name="description" content="Impulsive gravitational waves are exact solutions to Einstein equations with curvature proportional to Dirac δ-distribution localized on some null hypersurface.
+        Solution corresponds to pure gravitational waves if the corresponding components of Weyl tensor are proportional to δ-distribution.
+         This page is meant to be a summary of current results concerning impulsive gravitational waves.">
+        <meta name="keywords" content="General Realtivity, Relativity, Impulsive Waves, Gravitation, Shock Waves, Einstein, Penrose, Aichelburg, Sexl" />
+        <meta name="author" content="Daniel Rod" />
+        <meta charset="utf-8" />
+
+        <!-- material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        
+        <!-- materialize.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+        <link rel="stylesheet" href="../styles/main.css" />
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Gyratonic Hotta-Tanaka Solution - Impulsive Gravitational Waves</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                <a href="#" class="brand-logo right">IGW</a>
+                <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About Gravitational Waves</a></li>
+                    <li><a href="../references.html" >Literature and References</a></li>
+                    <li class="active"><a href="../visualisations.html">Visualisations</a></li>
+                </ul>
+                </div>
+
+                <span id="mobile-breadcrumbs">
+                  <a href="../index.html" class="breadcrumb dark"><i class="material-icons">home</i></a>
+                  <a href="../visualisations.html" class="breadcrumb dark">Visualisations</a>
+                  <a href="#" class="breadcrumb dark">Gyratonic Hotta-Tanaka Solution</a>
+                </span>
+
+            </nav>
+
+            <ul class="sidenav" id="mobile">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about.html">About Gravitational Waves</a></li>
+              <li><a href="../references.html">Literature and References</a></li>
+              <li class="active"><a href="../visualisations.html">Visualisations</a></li>
+            </ul>
+        </header>
+
+        <main>
+          <h3>Gyratonic Hotta-Tanaka Solution</h3>
+          <p>
+            Gyratonic metric with off-diagonal terms can be generalized to the case of non-zero cosmological constant. The metric in conformally flat coordinates then reads
+            $$ \mathrm{d}s^2=\frac{2\mathrm{d}\eta~\mathrm{d}\bar{\eta} - 2 \mathrm{d}\mathcal{U}~\mathrm{d}\mathcal{V} + 2H(\eta, \bar{\eta}) \delta(\mathcal{U}) 
+            ~\mathrm{d}\mathcal{U}^2}{\left[1+\frac{1}{6}\Lambda(\eta \bar{\eta}-\mathcal{U}\mathcal{V})\right]^2}
+            + \frac{2J\left(\eta, \bar{\eta}, \mathcal{U}\right) \mathrm{d}\eta~\mathrm{d}\mathcal{U}
+            +2\overline{J}\left(\eta, \bar{\eta}, \mathcal{U}\right) \mathrm{d}\bar{\eta}~\mathrm{d}\mathcal{U}}{\left[1+\frac{1}{6}\Lambda(\eta \bar{\eta}-\mathcal{U}\mathcal{V})\right]^2}.$$
+            We will consider class of solutions analogous to the <a href="flat_gyraton.html">gyratonic Aichelburg-Sexl solution</a> (in sense of generalizing it to the $\Lambda \neq 0$ case)
+            and <a href="hotta_tanaka.html">Hotta-Tanaka solution</a> (in sense that the function $H$ is exactly the same).
+            Thus, we have $J = \frac{\chi}{2 \mathrm{i} \eta} \Theta(\mathcal{u})$ for $\chi = const.$ and profile of <a href="hotta_tanaka.html">Hotta-Tanaka solution</a>.
+          </p>
+          <h3>Visualisation of geodesic motion</h3>
+          <p>
+            Click on any picture to open the interactive version. It might take several seconds for interactive view to render.
+          </p>
+          TBD
+        </main>
+        
+        <footer class="page-footer">
+            <div class="footer-copyright">
+              <div class="container">
+              © 2021 Daniel Rod
+              </div>
+            </div>
+          </footer>
+              
+
+
+        <!-- materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- mathjax -->
+        <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+        </script>
+        <!-- jquery-->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <!--init main-->
+        <script type="text/javascript" src="../js/main.js"></script>
+    </body>
+
+</html>
